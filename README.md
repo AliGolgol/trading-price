@@ -108,7 +108,7 @@ We kindly ask you not to use standard libraries for statistic calculation or agg
   
 ### Or
 - run to build app: ``mvn clean then mvn package``
-- run ``java -jar target/amazon-search-volume.jar``
+- run ``java -jar target/trading-price.jar``
 
 ### Which assumptions you made while developing
 
