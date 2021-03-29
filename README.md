@@ -111,11 +111,14 @@ We kindly ask you not to use standard libraries for statistic calculation or agg
 - run ``java -jar target/trading-price.jar``
 
 ### Which assumptions you made while developing
+As price is updating by new Tick at any point in time, I decided to develop it as 
+a non-blocking solution to do that I used Project-Reactor to have a non-blocking and async solution.
 
 ### What would you improve if you had more time
 - Writing Acceptance Test
 - Stress test
 - Using CQRS to separate the Read and Write Models
+- Using Redis as an in-memory.
 
 ### And, whether you liked the challenge or not 
 Yes, it was interesting
