@@ -111,8 +111,10 @@ We kindly ask you not to use standard libraries for statistic calculation or agg
 - run ``java -jar target/trading-price.jar``
 
 ### Which assumptions you made while developing
-As price is updating by new Tick at any point in time, I decided to develop it as 
+- As price is updating by new Tick at any point in time, I decided to develop it as 
 a non-blocking solution to do that I used Project-Reactor to have a non-blocking and async solution.
+- To have O(1) time and space complexity, I update the statistics in an offline mode every second 
+which is a scheduled task so when a statistics request comes I just need to return the updated statistics.
 
 ### What would you improve if you had more time
 - Writing Acceptance Test
