@@ -1,4 +1,3 @@
-# SOLACTIVE CODE CHALLENGE (v1.03)
 
 ## Requirement
 In order to ensure integrity of our index calculation and proper input data, our operations team needs a
