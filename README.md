@@ -26,7 +26,7 @@ Body
 } 
 ```
 
-####where:
+#### where:
 - instrument - a financial instrument identifier (string; list of instruments is not known to our service in
 advance so we add them dynamically)
 - price - current trade price of a financial instrument (double)
@@ -42,7 +42,7 @@ execute in constant time and memory (O(1)).
 
 It returns the following statistics based on the ticks which happened in the last 60 seconds (sliding time
 interval).
-####Returns:
+#### Returns:
 ```
 { 
 "avg": 100, 
